@@ -11,3 +11,5 @@ async function getdata() {
     console.log(response);
 }
 getdata();
+
+// git add .

@@ -1,4 +1,5 @@
 node_modules
+env
 
 // for fit time
 git init
@@ -17,3 +18,9 @@ git push -u origin main
 git add .
 git commit -m "first commit"
 git push 
+
+
+*****
+//git clone url of repo
+
+// git clone https://github.com/OpenZeppelin/openzeppelin-contracts.git

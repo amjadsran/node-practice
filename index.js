@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 const url = 'mongodb://localhost:27017';
 const database = 'Employee';
-const client = new MongoClient(url);
+const client = new MongoClient(process.env.uri);
 
 async function getdata() {
     let Result = await client.connect();
